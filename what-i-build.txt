@@ -1,0 +1,10 @@
+1. OpenQRL (openqrl.my.id)
+OpenQRL is an open-source website for creating and customizing QR codes with an elegant Frutiger Aero dusk theme. Built with Next.js 15, TypeScript, and Tailwind CSS v4.
+Gitlab.com/satirr/openqtr
+
+2. Openqtr (https://cdn.jsdelivr.net/npm/@satirr/openqtr/dist/sdk.js)
+OpenQTR (Open QR Tool Renderer) is a standalone browser SDK that lets anyone generate QR codes from any website — no React, no framework, no bundler needed
+
+3. Pencak silat Scoring (https://pencak-silat-scoring.vercel.app/)
+A digital scoring system for web-based Pencak Silat competitions with real-time support using Supabase.
+
