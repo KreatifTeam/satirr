@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaPhoneAlt } from 'react-ic
 import useInView from '../hooks/useInView';
 import './Contact.css';
 
-const EMAIL = 'satirrdev@outlook.com';
+const EMAIL = 'satirrdev@proton.me';
 const WHATSAPP = '+6287751322884';
 
 export default function Contact() {
