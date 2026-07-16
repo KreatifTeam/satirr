@@ -1,63 +1,67 @@
 .contact-card {
-  max-width: 500px;
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 2rem;
-  box-shadow: 0 4px 20px var(--shadow);
+  max-width: 480px;
+  background: var(--color-paper-2);
+  border: var(--rule-hair) solid var(--color-rule);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xl);
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
 }
 
 .contact-icon {
   display: flex;
   align-items: center;
-  color: var(--primary);
+  color: var(--color-accent-dim);
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  background: var(--bg-alt);
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: var(--color-paper-3);
   justify-content: center;
 }
 
 .contact-link {
-  font-size: 1rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
   word-break: break-all;
-  font-weight: 500;
+  color: var(--color-muted);
+}
+
+.contact-link:hover {
+  color: var(--color-accent);
 }
 
 .contact-divider {
-  height: 1px;
-  background: linear-gradient(90deg, var(--primary-light), var(--accent-light), transparent);
-  margin: 1.25rem 0;
+  height: var(--rule-hair);
+  background: var(--color-rule);
+  margin: var(--space-lg) 0;
 }
 
 .contact-social {
   display: flex;
-  gap: 0.75rem;
+  gap: var(--space-sm);
 }
 
 .social-link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  color: var(--text-muted);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  border: var(--rule-hair) solid var(--color-rule);
+  color: var(--color-neutral);
+  transition: all var(--dur-short) var(--ease-out);
 }
 
 .social-link:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.15);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  transform: translateY(-2px);
+  text-decoration: none;
 }

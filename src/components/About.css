@@ -1,76 +1,77 @@
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--space-2xl);
   align-items: start;
 }
 
 .about-icon {
   display: inline-flex;
-  margin-right: 0.5rem;
-  color: var(--primary);
+  margin-right: var(--space-2xs);
+  color: var(--color-accent-dim);
   vertical-align: middle;
 }
 
 .about-text p {
-  font-size: 1.05rem;
-  color: var(--text-muted);
-  margin-bottom: 1.25rem;
-  max-width: 500px;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-muted);
+  margin-bottom: var(--space-md);
+  max-width: 55ch;
   line-height: 1.8;
 }
 
+.about-text p::before {
+  content: '> ';
+  color: var(--color-accent-dim);
+}
+
 .about-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
 .stat-card {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.4rem;
-  padding: 1.5rem 1rem;
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  text-align: center;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--color-paper-2);
+  border: var(--rule-hair) solid var(--color-rule);
+  border-radius: var(--radius-sm);
+  transition: all var(--dur-short) var(--ease-out);
 }
 
 .stat-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 25px var(--shadow);
-  border-color: var(--primary-light);
+  border-color: var(--color-accent);
+  background: var(--color-paper-3);
 }
 
 .stat-icon {
-  font-size: 1.5rem;
-  color: var(--primary);
+  font-size: var(--text-lg);
+  color: var(--color-accent-dim);
 }
 
 .stat-value {
-  font-size: 1.8rem;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-family: var(--font-mono);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--color-accent);
 }
 
 .stat-label {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-weight: 500;
+  font-size: var(--text-xs);
+  color: var(--color-neutral);
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.08em;
+  margin-left: auto;
 }
 
 @media (max-width: 768px) {
   .about-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: var(--space-xl);
   }
 
   .about-text p {

@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin, FaGitlab, FaArrowRight } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiHtml5, SiCss } from 'react-icons/si';
 import useInView from '../hooks/useInView';
 import './Hero.css';
 
@@ -8,14 +7,6 @@ export default function Hero() {
 
   return (
     <section id="hero" className="hero" ref={ref}>
-      <div className="hero-bg">
-        <div className="hero-shape hero-shape-1" />
-        <div className="hero-shape hero-shape-2" />
-      </div>
-      <div className="floating-icon floating-js"><SiJavascript /></div>
-      <div className="floating-icon floating-ts"><SiTypescript /></div>
-      <div className="floating-icon floating-html"><SiHtml5 /></div>
-      <div className="floating-icon floating-css"><SiCss /></div>
       <div className="container hero-content">
         <div className={`terminal ${visible ? 'visible' : ''}`}>
           <div className="terminal-titlebar">
