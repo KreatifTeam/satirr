@@ -49,7 +49,7 @@ export default function Header() {
             </li>
           ))}
           <li>
-            <a href="https://github.com/satirr" target="_blank" rel="noopener noreferrer" className="header-social-link" aria-label="GitHub">
+            <a href="https://github.com/satirrdev" target="_blank" rel="noopener noreferrer" className="header-social-link" aria-label="GitHub">
               <FaGithub size={20} />
             </a>
           </li>

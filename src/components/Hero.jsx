@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaGitlab, FaArrowRight } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp, FaGitlab, FaArrowRight } from 'react-icons/fa';
 import useInView from '../hooks/useInView';
 import './Hero.css';
 
@@ -57,8 +57,8 @@ export default function Hero() {
           <a href="#contact" className="btn btn-outline">Get in Touch</a>
         </div>
         <div className={`hero-social ${visible ? 'visible' : ''}`}>
-          <a href="https://github.com/satirr" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub size={20} /></a>
-          <a href="https://linkedin.com/in/satirr" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin size={20} /></a>
+          <a href="https://github.com/satirrdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub size={20} /></a>
+          <a href="https://wa.me/6287751322884" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><FaWhatsapp size={20} /></a>
           <a href="https://gitlab.com/satirr" target="_blank" rel="noopener noreferrer" aria-label="GitLab"><FaGitlab size={20} /></a>
         </div>
       </div>

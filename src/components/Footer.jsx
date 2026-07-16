@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaArrowUp } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp, FaGitlab, FaEnvelope, FaArrowUp } from 'react-icons/fa';
 import './Footer.css';
 
 export default function Footer() {
@@ -6,8 +6,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-content">
         <div className="footer-social">
-          <a href="https://github.com/satirr" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub size={18} /></a>
-          <a href="https://linkedin.com/in/satirr" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin size={18} /></a>
+          <a href="https://github.com/satirrdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub size={18} /></a>
+          <a href="https://wa.me/6287751322884" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><FaWhatsapp size={18} /></a>
           <a href="https://gitlab.com/satirr" target="_blank" rel="noopener noreferrer" aria-label="GitLab"><FaGitlab size={18} /></a>
           <a href="mailto:satirrdev@proton.me" aria-label="Email"><FaEnvelope size={18} /></a>
         </div>

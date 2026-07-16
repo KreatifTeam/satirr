@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaGitlab, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp, FaGitlab, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import useInView from '../hooks/useInView';
 import './Contact.css';
 
@@ -25,11 +25,11 @@ export default function Contact() {
           </div>
           <div className="contact-divider" />
           <div className="contact-social">
-            <a href="https://github.com/satirr" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
+            <a href="https://github.com/satirrdev" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
               <FaGithub size={20} />
             </a>
-            <a href="https://linkedin.com/in/satirr" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
-              <FaLinkedin size={20} />
+            <a href="https://wa.me/6287751322884" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="WhatsApp">
+              <FaWhatsapp size={20} />
             </a>
             <a href="https://gitlab.com/satirr" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitLab">
               <FaGitlab size={20} />
