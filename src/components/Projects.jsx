@@ -36,6 +36,28 @@ const projects = [
       { label: 'Live Demo', url: 'https://pencak-silat-scoring.vercel.app/' },
     ],
   },
+  {
+    title: 'Drapp',
+    description: 'Android open-source app downloader — a minimal alternative to F-Droid for discovering and installing APKs.',
+    image: 'https://placehold.co/600x400/8B5CF6/A78BFA?text=Drapp',
+    demoUrl: 'https://drapp-gold.vercel.app',
+    tags: ['Android', 'APK', 'F-Droid'],
+    links: [
+      { label: 'Website', url: 'https://drapp-gold.vercel.app' },
+      { label: 'GitHub', url: 'https://github.com/satirrdev/drapp' },
+    ],
+  },
+  {
+    title: 'Yakuza Game Booster',
+    description: 'Rootless game booster with root-level features — unlock performance tweaks without rooting your device.',
+    image: 'https://placehold.co/600x400/DC2626/FCA5A5?text=Yakuza+Booster',
+    demoUrl: 'https://rebrand.ly/yakuzadl',
+    tags: ['Android', 'Game Booster', 'Rootless'],
+    links: [
+      { label: 'Website', url: 'https://rebrand.ly/yakuzadl' },
+      { label: 'GitHub', url: 'https://github.com/satirrdev/webyakuza' },
+    ],
+  },
 ];
 
 function ProjectPreview({ project }) {
